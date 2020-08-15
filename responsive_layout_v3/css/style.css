@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/*  ---Media Queries--- */
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
