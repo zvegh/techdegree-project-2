@@ -6,6 +6,127 @@
   text-align: center;
 }
 
+header {
+  background-color: rgb(250, 250, 250);
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.title {
+  margin: 20px;
+  padding: 20px;
+  color: rgb(74, 74, 74);
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(74, 74, 74);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(74, 74, 74);
+}
+
+.profile-image {
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+p {
+  color: rgb(127, 127, 142);
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+header li {
+  display: block;
+  width: 90%;
+  font-size: 1.4em;
+  padding: 12px;
+  margin: 12px;
+  background-color: #fff;
+  color: rgb(74, 74, 74);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h2 {
+  margin: 20px;
+  padding: 20px;
+  color: rgb(74, 74, 74);
+}
+
+h3 {
+  margin: 10px;
+  padding: 10px;
+  color: rgb(74, 74, 74);
+}
+
+.projects {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.project-image {
+  width: 100%;
+  margin: 15px 0;
+  padding: 15px 0;
+}
+
+.calc-p {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: rgb(250, 250, 250);
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.footer-title {
+}
+
+.footer-p {
+}
+
+.email {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-name {
+  display: inline-block;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  color: rgb(74, 74, 74);
+}
+
+.email-phone {
+  margin-right; 10px;
+  padding-right: 10px;
+}
+
+.bold {
+  font-weight: 700;
+  color: rgb(74, 74, 74);
+}
+
+.back-to-top {
+  display: inline-block;
+  float: right;
+  margin: 20px;
+  padding: 20px;
+}
+
+hr {
+  width: 90%;
+  margin: auto;
+}
+
 /*  ---Media Queries--- */
 @media (min-width: 768px) {
 }
