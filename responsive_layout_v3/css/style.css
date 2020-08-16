@@ -14,8 +14,8 @@ header {
 }
 
 .title {
-  margin: 20px;
-  padding: 20px;
+  margin: 0 20px 20px 20px;
+  padding: 40px 20px 20px 20px;
   color: rgb(74, 74, 74);
   font-weight: 700;
 }
@@ -216,6 +216,11 @@ hr {
     margin: auto;
   }
 
+  footer {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+  }
+
   .footer-name {
     padding: 0;
   }
@@ -226,16 +231,20 @@ hr {
 
   .footer-wrapper {
     background-color: rgb(250, 250, 250);
-    margin: auto 50px 50px 50px;
-    border: 2px red solid;
     box-sizing: border-box;
-    width: 90%;
+    width: 100%;
     overflow: hidden;
+    padding: 0 50px;
   }
 
   .footer-nav {
     display: inline-block;
     float: right;
+  }
+
+  .footer-navigation {
+    padding-bottom: 100px;
+    margin-bottom: 20px;
   }
 
   .footer-nav li {
@@ -247,4 +256,12 @@ hr {
 }
 
 @media (min-width: 1024px) {
+}
+
+/* Clearfix */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
