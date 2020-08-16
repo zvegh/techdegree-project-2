@@ -35,6 +35,10 @@ a:visited {
   padding: 20px 0;
 }
 
+header p {
+  text-align: left;
+}
+
 p {
   color: rgb(127, 127, 142);
   line-height: 1.5;
@@ -175,9 +179,6 @@ hr {
     margin-top: 50px;
   }
 
-  .wrapper p {
-  }
-
   #project-1 {
     float: left;
     width: 49%;
@@ -256,6 +257,89 @@ hr {
 }
 
 @media (min-width: 1024px) {
+  header {
+    height: 70vh;
+  }
+
+  .title {
+    float: left;
+    display: inline-block;
+  }
+
+  header nav {
+    display: inline-block;
+    float: right;
+  }
+
+  header ul {
+    margin: 0 20px 20px;
+    padding: 40px 20px 20px;
+  }
+
+  header p {
+    font-size: 1.5em;
+    text-align: left;
+  }
+
+  .profile-image {
+    margin: auto;
+    padding: auto;
+    margin-right: 50px;
+  }
+
+  .wrapper {
+    width: 90%;
+    text-align: center;
+    margin: 15px auto 15px auto;
+    box-sizing: border-box;
+    margin-top: 50px;
+    max-width: 1374px;
+  }
+
+  #project-1 {
+    float: left;
+    width: 30%;
+    display: inline-block;
+
+    margin-right: 10px;
+  }
+
+  #project-2 {
+    float: left;
+    width: 30%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  #project-3 {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+  }
+
+  #project-4 {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+  }
+
+  #project-5 {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+  }
+
+  #project-6 {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+  }
+
+  .footer-p {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
 }
 
 /* Clearfix */
