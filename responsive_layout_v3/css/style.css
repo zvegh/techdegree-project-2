@@ -86,12 +86,6 @@ footer {
   padding-top: 50px;
 }
 
-.footer-title {
-}
-
-.footer-p {
-}
-
 .email {
   margin-bottom: 50px;
   padding-bottom: 50px;
@@ -103,6 +97,10 @@ footer {
   margin: 20px;
   padding: 20px;
   color: rgb(74, 74, 74);
+}
+
+.footer-nav {
+  display: none;
 }
 
 .email-phone {
@@ -129,19 +127,30 @@ hr {
 
 /*  ---Media Queries--- */
 @media (min-width: 768px) {
+  header {
+    text-align: center;
+
+    box-sizing: border-box;
+    margin: auto;
+  }
+
   header nav {
-    width: 100%;
-    text-align: center;
-  }
-
-  header nav li {
     display: inline-block;
-    width: 33.33%;
-    font-size: 1em;
-    text-align: center;
   }
 
-  header img {
+  header li {
+    display: inline;
+    font-size: 1.4em;
+    background-color: rgb(250, 250, 250);
+    color: rgb(74, 74, 74);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 20px 15px;
+    padding: 20px 15px;
+  }
+
+  .profile-image {
+    margin: 15px 0 15px 15px;
     float: right;
     width: 40%;
   }
@@ -149,6 +158,71 @@ hr {
   header p {
     float: left;
     width: 60%;
+    padding-right: 10px;
+  }
+
+  .wrapper {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  #project-1 {
+    float: left;
+    width: 50%;
+    display: inline-block;
+  }
+
+  #project-2 {
+    float: right;
+    width: 50%;
+    display: inline-block;
+  }
+
+  #project-3 {
+    float: left;
+    width: 50%;
+  }
+
+  #project-4 {
+    float: right;
+    width: 50%;
+  }
+
+  #project-5 {
+    float: left;
+    width: 50%;
+  }
+
+  #project-6 {
+    float: right;
+    width: 50%;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .footer-wrapper {
+    background-color: rgb(250, 250, 250);
+    margin: 50px;
+    padding: 50px;
+    border: 2px red solid;
+    box-sizing: border-box;
+    width: 90%;
+  }
+
+  .footer-nav {
+    display: inline-block;
+    float: right;
+  }
+
+  .footer-nav li {
+    float: left;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
   }
 }
 
