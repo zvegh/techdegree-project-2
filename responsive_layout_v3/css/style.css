@@ -131,6 +131,7 @@ hr {
     text-align: center;
     box-sizing: border-box;
     margin: auto;
+    height: 60vh;
   }
 
   header nav {
@@ -161,44 +162,58 @@ hr {
     margin: 60px auto auto 15px;
   }
 
+  .projects {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
   .wrapper {
     width: 90%;
     text-align: center;
-    margin: auto;
+    margin: 15px auto 15px auto;
     box-sizing: border-box;
     margin-top: 50px;
   }
 
+  .wrapper p {
+  }
+
   #project-1 {
     float: left;
-    width: 50%;
+    width: 49%;
     display: inline-block;
+    margin: auto;
   }
 
   #project-2 {
     float: right;
-    width: 50%;
+    width: 49%;
     display: inline-block;
+    margin: auto;
   }
 
   #project-3 {
     float: left;
-    width: 50%;
+    width: 49%;
+    margin: auto;
   }
 
   #project-4 {
     float: right;
-    width: 50%;
+    width: 49%;
+    margin: auto;
   }
 
   #project-5 {
     float: left;
-    width: 50%;
+    width: 49%;
+    margin: auto;
   }
 
   #project-6 {
     float: right;
-    width: 50%;
+    width: 49%;
+    margin: auto;
   }
 
   .footer-name {
