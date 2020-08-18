@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  max-width: 1400px;
 }
 
 header {
@@ -140,6 +141,12 @@ hr {
 
   header nav {
     display: inline-block;
+    text-align: center;
+  }
+
+  header ul {
+    text-align: center;
+    overflow: visible;
   }
 
   header li {
@@ -169,6 +176,10 @@ hr {
   .projects {
     margin-bottom: 0;
     padding-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .wrapper {
@@ -274,17 +285,24 @@ hr {
   header ul {
     margin: 0 20px 20px;
     padding: 40px 20px 20px;
+    float: right;
   }
 
   header p {
     font-size: 1.5em;
     text-align: left;
+    width: 50%;
+    float: left;
+    display: inline-block;
   }
 
   .profile-image {
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
     margin-right: 50px;
+    width: 40%;
+    float: right;
+    overflow: hidden;
   }
 
   .wrapper {
