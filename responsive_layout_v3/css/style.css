@@ -13,11 +13,12 @@ header {
   height: 100vh;
   margin-top: 0;
   padding-top: 0;
+  padding-right: 0;
 }
 
 .title {
-  margin: 0 20px 20px 20px;
-  padding: 40px 20px 20px 20px;
+  margin: 0 0 20px 20px;
+  padding: 40px 0 20px 20px;
   color: rgb(74, 74, 74);
   font-weight: 700;
 }
@@ -38,7 +39,7 @@ a:visited {
 }
 
 header p {
-  text-align: left;
+  text-align: center;
 }
 
 p {
@@ -172,6 +173,12 @@ hr {
     width: 55%;
     padding-right: 10px;
     margin: 60px auto auto 15px;
+    text-align: left;
+  }
+
+  h2 {
+    padding: 150px 0 150px 0;
+    margin: 50px 0 50px 0;
   }
 
   .projects {
@@ -189,6 +196,7 @@ hr {
     margin: 15px auto 15px auto;
     box-sizing: border-box;
     margin-top: 50px;
+    overflow: auto;
   }
 
   #project-1 {
@@ -209,12 +217,14 @@ hr {
     float: left;
     width: 49%;
     margin: auto;
+    display: inline-block;
   }
 
   #project-4 {
     float: right;
     width: 49%;
     margin: auto;
+    display: inline-block;
   }
 
   #project-5 {
@@ -236,6 +246,11 @@ hr {
 
   .footer-name {
     padding: 0;
+    float: left;
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 0;
+    margin-right: 0;
   }
 
   .back-to-top {
@@ -253,6 +268,9 @@ hr {
   .footer-nav {
     display: inline-block;
     float: right;
+    width: 60%;
+    margin-right: 0;
+    padding-right: 0;
   }
 
   .footer-navigation {
@@ -265,6 +283,7 @@ hr {
     display: inline-block;
     margin: 10px;
     padding: 10px;
+    width: 110px;
   }
 }
 
